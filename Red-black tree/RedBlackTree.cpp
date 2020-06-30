@@ -2,11 +2,20 @@
 #include "RedBlackTree.h"
 
 
-RedBlackTree::RedBlackTree()
+template<class T> RedBlackTree<T>::RedBlackTree()
 {
 }
 
+template<class T> RedBlackTree<T>::RedBlackTree(Node root)
+{
+	this->root = root;
+}
 
-RedBlackTree::~RedBlackTree()
+template<class T> RedBlackTree<T>::insert(Node&)
+{
+	
+}
+
+template<class T> RedBlackTree<T>::~RedBlackTree()
 {
 }

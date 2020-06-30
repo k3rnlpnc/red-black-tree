@@ -6,7 +6,7 @@ class RedBlackTree
 {
 public:
 	RedBlackTree();
-	~RedBlackTree();
+	~RedBlackTree(); 
 	insert(Node&);
 	remove(T);
 	find(T);
